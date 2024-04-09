@@ -1,0 +1,339 @@
+/* src/styles.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@media (max-width: 376px) {
+    .nav-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: medium;
+      margin:0;
+      width: 100%;
+    }
+    .options{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .about-fibery{
+        display: flex;
+        flex-direction: column;
+         justify-content: center;
+         align-items: center;
+    }
+    
+    .schedule{
+        text-align: center;
+    margin-top: 1rem;
+    }
+  }
+
+  @media (max-width: 426px) {
+    .nav-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: medium;
+      margin:0;
+      width: 100%;
+    }
+    .options{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .about-fibery{
+        display: flex;
+        flex-direction: column;
+         justify-content: center;
+         align-items: center;
+    }
+    
+    .schedule{
+    text-align: center;
+    margin-top: 1rem;
+    }
+  }
+
+  @media (max-width: 952px) {
+    .nav-container {
+      display: flex;
+      /* flex-direction: column; */
+      justify-content: space-between;
+      margin:0;
+      width: 100%;
+      padding: 0%;
+    }
+
+    .options{
+      display: flex;
+       font-size: small !important;
+    }
+
+    .buttons{
+        display: flex;
+      height: 40px;
+      padding: 0%;
+    }
+    .about-fibery{
+        display: flex;
+    }
+    
+    .schedule{
+    text-align: center;
+    margin-top: 1rem;
+    }
+  }
+ 
+  @media (max-width: 990px) {
+    .nav-container {
+      display: flex;
+      /* flex-direction: column; */
+      justify-content: space-between;
+      margin:0;
+      width: 100%;
+      padding: 0%;
+    }
+
+    .options{
+      display: flex;
+       font-size: larger;
+    }
+
+    .buttons{
+        display: flex;
+      height: 40px;
+      padding: 0%;
+    }
+    .about-fibery{
+        display: flex;
+    }
+    
+    .schedule{
+    text-align: center;
+    margin-top: 1rem;
+    }
+  }
+ 
+
+  @media (max-width: 769px) {
+    .nav-container {
+      display: flex;
+      /* flex-direction: column; */
+      justify-content: space-between;
+      margin:0;
+      width: 100%;
+      padding: 0%;
+    }
+
+    .options{
+      display: flex;
+       font-size: small !important;
+    }
+
+    .buttons{
+        display: flex;
+      height: 40px;
+      padding: 0%;
+    }
+    .about-fibery{
+        display: flex;
+    }
+    
+    .schedule{
+    text-align: center;
+    margin-top: 1rem;
+    }
+  }
+ 
+
+  @media (max-width: 781px) {
+    .nav-container {
+      display: flex;
+      /* flex-direction: column; */
+      justify-content: space-between !important;
+      margin:0;
+      width: 100%;
+      padding: 0%;
+    }
+
+    .options{
+      display: flex;
+       font-size: small !important;
+    }
+
+    .buttons{
+        display: flex;
+      height: 40px;
+      padding: 0%;
+    }
+    .about-fibery{
+        display: flex;
+    }
+    
+    .schedule{
+    text-align: center;
+    margin-top: 1rem;
+    }
+  }
+
+  @media (max-width: 876px) {
+    .nav-container {
+      display: flex;
+      /* flex-direction: column; */
+      justify-content: space-between !important;
+      margin:0;
+      width: 100%;
+      padding: 0%;
+    }
+
+    .options{
+      display: flex;
+       font-size: small ;
+    }
+
+    .buttons{
+        display: flex;
+      height: 40px;
+      padding: 0%;
+    }
+    .about-fibery{
+        display: flex;
+    }
+    
+    .schedule{
+    text-align: center;
+    margin-top: 1rem;
+    }
+  }
+ 
+ 
+
+  @media (max-width: 726px) {
+    .nav-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: medium;
+        margin:0;
+        width: 100%;
+      }
+      .options{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          font-size: larger;
+      }
+  
+      .buttons{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 1rem;
+      }
+      .about-fibery{
+          display: flex;
+          
+      }
+        .fibery{
+            font-size: 50px;
+        }
+      
+      .schedule{
+      text-align: center;
+      margin-top: 1rem;
+      }
+  }
+
+
+  @media (max-width: 501px) {
+    .nav-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: medium;
+      margin:0;
+      width: 100%;
+    }
+    .options{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .about-fibery{
+        display: flex;
+        flex-direction: column;
+         justify-content: center;
+         align-items: center;
+    }
+    
+    .schedule{
+    text-align: center;
+    margin-top: 1rem;
+    }
+  }
+
+
+  @media (max-width: 2561px) {
+    .nav-container {
+      display: flex;
+      /* flex-direction: column; */
+      justify-content: space-between !important;
+      margin:0;
+      width: 100vw;
+    }
+
+    .options{
+        display: flex;
+       font-size: x-large;
+    }
+
+    .buttons{
+        display: flex;
+        
+    }
+    .about-fibery{
+        display: flex;
+    }
+    
+    .schedule{
+    text-align: center;
+    margin-top: 1rem;
+    }
+  }
+ 
